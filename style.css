@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    font-family: 'Vollkorn', serif;
+    color: #fff;
+    font-weight: 300;
+}
+
+p {
+    font-size: 30px;
+}
+
+nav {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.modal-text {
+    color: black;
+    font-size: 30px;
+}
+
+.page-header {
+    background-color: black;
+    max-width: 100%;
+    background-image: url(treebucay.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: cyan;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.title-super {
+    font-size: 40px;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border: 3px;
+    padding-top: 10px;
+}
+
+#myworld {
+    width: 100%;
+}
+
+@-ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+@media screen and (max-width:550px) {
+    .title-super {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .logo {
+        width: 30%;
+        height: 30%;
+    };
+}
+
+@media screen and (min-width:1005px) {
+    .title-super {
+        font-size: 75px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+        border: 3px;
+        padding-top: 10px;
+    };
+}
+
+
+
+
